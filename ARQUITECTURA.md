@@ -8,7 +8,7 @@
 
 ---
 
-## 📐 1. Arquitectura de la solución
+##  1. Arquitectura de la solución
 
 ### 1.1 Patrón: Clean Architecture
 
@@ -47,7 +47,7 @@ La solución implementa **Clean Architecture** en 4 capas independientes:
 
 ---
 
-## 🎯 2. Entidades y Modelos
+##  2. Entidades y Modelos
 
 ### 2.1 Diagrama de entidades
 
@@ -102,7 +102,7 @@ public abstract class BaseEntity
 
 ---
 
-## 🏗️ 3. Patrones y principios implementados
+##  3. Patrones y principios implementados
 
 ### 3.1 Repository Pattern
 
@@ -164,7 +164,7 @@ Cada caso de uso encapsula lógica de negocio:
 
 ---
 
-## 🔐 4. Seguridad
+##  4. Seguridad
 
 ### 4.1 Autenticación JWT
 
@@ -256,7 +256,7 @@ public class LecturaController : ControllerBase
 
 ---
 
-## 💼 5. Casos de uso principales
+##  5. Casos de uso principales
 
 ### 5.1 UC-01: Registrar lectura de sensor
 
@@ -384,7 +384,7 @@ public class LecturaController : ControllerBase
 
 ---
 
-## 📚 6. Tecnologías utilizadas
+##  6. Tecnologías utilizadas
 
 | Tecnología | Versión | Propósito |
 |-----------|---------|----------|
@@ -398,7 +398,7 @@ public class LecturaController : ControllerBase
 
 ---
 
-## 🗄️ 7. Base de datos
+##  7. Base de datos
 
 ### 7.1 Tablas principales
 
@@ -459,7 +459,7 @@ Esto garantiza que las consultas excluyan registros eliminados sin necesidad de 
 
 ---
 
-## 📊 8. Flujos principales
+##  8. Flujos principales
 
 ### Flujo de registro de lectura
 
@@ -491,7 +491,7 @@ Cliente
 
 ---
 
-## 🧪 9. Consideraciones de calidad de código
+##  9. Consideraciones de calidad de código
 
 ### 9.1 Principios SOLID
 
