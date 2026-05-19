@@ -2,7 +2,7 @@
 
 API RESTful para monitoreo de calidad del aire en plantas industriales, construida con .NET 9, MySQL y arquitectura limpia.
 
-## 📋 Características
+## Características
 
 - ✅ Registro de lecturas de sensores (PM2.5, PM10, CO2)
 - ✅ Generación automática de alertas según umbrales OMS
@@ -12,13 +12,13 @@ API RESTful para monitoreo de calidad del aire en plantas industriales, construi
 - ✅ Documentación interactiva con Swagger/OpenAPI
 - ✅ Validaciones de entrada y manejo de errores
 
-## 🛠️ Requisitos
+##  Requisitos
 
 - **.NET 9.0** o superior
 - **Docker** (para MySQL) o **MySQL Server 8.0+**
 - **Git**
 
-## 🚀 Instalación y ejecución
+##  Instalación y ejecución
 
 ### 1. Clonar el repositorio
 
@@ -126,7 +126,7 @@ https://localhost:53760/swagger
 
 **GET** `/api/alerta?page=1&take=10` — Listar alertas
 
-## 🔐 Seguridad
+##  Seguridad
 
 - Autenticación JWT con expiración de 7 días
 - Endpoints sensibles protegidos con `[Authorize]`
@@ -143,7 +143,7 @@ https://localhost:53760/swagger
 | **Crítica** | PM2.5 > 150 o PM10 > 200 | "La calidad del aire es peligrosa. Se recomienda permanecer en interiores y usar mascarilla." |
 | **Extrema** | CO2 > 5000 o PM2.5 > 250 | "Nivel de contaminación extremadamente alto. Riesgo severo para la salud." |
 
-## 📁 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 AireIndustrial/
@@ -166,7 +166,7 @@ AireIndustrial/
 └── script.sql                         # Script de creación de BD
 ```
 
-## 🧪 Pruebas manuales
+##  Pruebas manuales
 
 1. **Registrar usuario**: POST `/api/account/register`
 2. **Obtener token**: POST `/api/account/login`
@@ -183,7 +183,7 @@ Consulta `ARQUITECTURA.md` para detalles sobre:
 - Seguridad y validaciones
 - Casos de uso y flujos de negocio
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Error de conexión a BD
 ```
@@ -200,7 +200,7 @@ Asegúrese de incluir el header:
 Authorization: Bearer {token_aqui}
 ```
 
-## 📝 Licencia
+##  Licencia
 
 Este proyecto es de uso educativo.
 
