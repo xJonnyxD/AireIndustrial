@@ -1,0 +1,13 @@
+* text=auto
+
+# Documentation files - not counted as code
+*.pdf linguist-documentation
+*.docx linguist-documentation
+ENTREGA.html linguist-documentation
+ARQUITECTURA.md linguist-documentation
+README.md linguist-documentation
+script.sql linguist-documentation
+
+# Keep only code files in language statistics
+*.cs linguist-language=C#
+*.csproj linguist-language=C#
