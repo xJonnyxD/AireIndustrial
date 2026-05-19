@@ -134,7 +134,7 @@ https://localhost:53760/swagger
 - Respuestas HTTP con mensajes descriptivos
 - Documentación con esquema de seguridad en Swagger
 
-## 📊 Umbrales de alertas OMS
+##  Umbrales de alertas OMS
 
 | Nivel | Condición | Mensaje |
 |-------|-----------|---------|
@@ -175,7 +175,7 @@ AireIndustrial/
 5. **Ver alertas generadas**: GET `/api/alerta` (con Authorization header)
 6. **Consultar lectura enriquecida**: GET `/api/lectura/{id}/enriquecida`
 
-## 📖 Documentación técnica
+##  Documentación técnica
 
 Consulta `ARQUITECTURA.md` para detalles sobre:
 - Arquitectura de capas (Clean Architecture)
